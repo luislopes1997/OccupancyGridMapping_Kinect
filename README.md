@@ -11,7 +11,7 @@ To run this implementation of the Occupancy Grid Mapping you need to:
   
 - Install Depthimage_to_laserscan package
   - use the launch file depthtolaser.launch (or modify it accordingly)
-  - use the cfg file Depth.cfg (or modify it accordingly)
+  - use the cfg file Depth.cfg (or modify it accordingly). IMPORTANT: You have to build the package in order for changes to take place.
   
  # How to improve the results
  This algorithm is using the Pioneer-3DX odometry to get the robot pose.
